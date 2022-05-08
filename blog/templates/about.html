@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% block title %}
+about us
+{% endblock title %}
+{% block body %}
+<div class="container-fluid text-center" style="color: beige;">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://source.unsplash.com/1600x400/?lady" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container-fluid">
+                      <h1 class="display-4"><strong>WRITE SOMETHING THAT WILL INSPIRE THE WORLD.</strong></h1>
+                      <hr class="my-4">
+                      <a class="btn btn-info btn-lg my-2" href="#" role="button">SHARE WITH US</a>
+                      <hr class="my-4">
+                      <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+                    </div>
+                  </div>
+            </div>
+        </div> 
+        </div>
+      </div>
+</div>
+
+  <section class="features-icons text-center" style="color: beige;">
+    <div class="container-fluid my-4">
+        <div class="my-4">
+            <h2 style="text-align: center;">something</h2>
+        </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+                <i class="fa fa-laptop fa-5x icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Fully Responsive</h3>
+            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="fa fa-angellist fa-5x icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Bootstrap 4 Ready</h3>
+            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+                <i class="fa fa-bolt fa-5x icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Easy to Use</h3>
+            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase" style="color: beige">
+    <div class="container-fluid  my-4">
+        <div class="my-4">
+            <h2 style="text-align: center;">some Projects</h2>
+        </div>   
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img"><img class="d-block w-100" src="https://source.unsplash.com/500x500/?flowers" alt="First slide"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Fully Responsive Design</h2>
+          <p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img"><img class="d-block w-100" src="https://source.unsplash.com/500x500/?water" alt="First slide"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Updated For Bootstrap 4</h2>
+          <p>Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white"><img class="d-block w-100" src="https://source.unsplash.com/500x500/?pyramids" alt="First slide"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Easy to Use &amp; Customize</h2>
+          <p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials text-center" style="color: beige;">
+    <div class="container">
+      <h2 class="mb-5 my-4 py-2">What people are saying...</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="https://source.unsplash.com/400x400/?girl" alt="">
+            <h5>Margaret E.</h5>
+            <p class="font-weight-light  my-4">"This is fantastic! Thanks so much guys!"</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="https://source.unsplash.com/400x400/?man" alt="">
+            <h5>Fred S.</h5>
+            <p class="font-weight-light my-4">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="https://source.unsplash.com/400x400/?people" alt="">
+            <h5>Sarah	W.</h5>
+            <p class="font-weight-light my-4">"Thanks so much for making these free resources available to us!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+{% endblock body %}
