@@ -1,6 +1,6 @@
-# To-Do-Do
+# NOTES-GENERATOR
 
-A To-Do list is a list that you can keep to put all of the tasks that you need to complete on a given day. 
+A NOTES-GENERATOR is a Kind of notebook that you can keep to put all of the notes and tasks that you need to complete on a given day. 
 It can be very useful for managing time, by planning your day ahead of time, and prioritizing activities.
 
 ## Django
